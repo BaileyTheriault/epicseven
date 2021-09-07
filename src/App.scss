@@ -1,0 +1,37 @@
+body {
+  background-color: #282c34;
+  font-size: 16px;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.app-nav {
+  display: grid;
+  grid-template-columns: 5fr 0.5fr 0.5fr;
+  column-gap: 16px;
+  padding: 16px 64px 0px;
+
+  .nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+  }
+
+  .nav-item {
+    align-self: flex-end;
+  }
+}
+
+.text-link {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+}
